@@ -24,7 +24,7 @@
 ;;; (iter 524288 19)
 ;;; (iter 1048576 20)
 
-;;; 1048576
+;=> 1048576
 
 (define (pow b n)
   (define (iter product count)

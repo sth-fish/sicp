@@ -9,7 +9,7 @@
 ;;; (iter 16 256^2 2/2)
 ;;; (iter 16*65536 65536 1-1)
 
-;;; 1048576
+;=> 1048576
 
 (define (fast-pow b n)
   (define (iter a b n)
