@@ -3,7 +3,7 @@
 ; Test fails because absolute tolerance of 0.001 is too large
 ; when computing sqrt of small numbers.
 
-;(sqrt 10000000000000)
+; (sqrt 10000000000000)
 ; For really large numbers evaluation never terminates due to limited precision
 
 (define (sqrt x)
