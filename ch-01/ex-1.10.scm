@@ -103,3 +103,8 @@
 ; (* 2 32768)
 ; (* 2 32768)
 ; => 65536
+
+(define (f n) (A 0 n)) ; computes  2n
+(define (g n) (A 1 n)) ; computes 2^n
+(define (h n) (A 2 n)) ; computes 2^2^… (n-1 times)
+(define (k n) (* 5 n n)) ; computes 5n^2
